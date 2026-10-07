@@ -1,0 +1,26 @@
+{
+    "project": "Heart Disease Prediction",
+    "model": "LogisticRegressionCV",
+    "trained_date": "2026-07",
+    "test_parameters": {
+        "cv": 10,
+        "penalty": "l1",
+        "solver": "liblinear",
+        "C": 0.3593813663804626
+    },
+    "final_parameters": {
+        "cv": 10,
+        "penalty": "l1",
+        "solver": "liblinear",
+        "C": 0.3593813663804626
+    },
+    "metrics": {
+        "Accuracy Score": 0.95,
+        "Precision Score": 0.9743589743589743,
+        "Recall": 0.9047619047619048,
+        "ROC AUC Score Train": 0.9993558441558441,
+        "ROC AUC Score Test": 0.9975369458128079,
+        "ROC AUC Score Full": 0.9994881176154673,
+        "Class Balance": "0: 60.8%, 1: 39.2%"
+    }
+}
