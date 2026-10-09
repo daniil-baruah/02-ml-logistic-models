@@ -1,0 +1,26 @@
+{
+    "project": "Employee Attrition Prediction",
+    "model": "LogisticRegressionCV",
+    "trained_date": "2026-07",
+    "test_parameters": {
+        "cv": 10,
+        "penalty": "l2",
+        "solver": "lbfgs",
+        "C": 0.046415888336127774
+    },
+    "final_parameters": {
+        "cv": 10,
+        "penalty": "l2",
+        "solver": "lbfgs",
+        "C": 0.046415888336127774
+    },
+    "metrics": {
+        "Accuracy Score": 0.7551020408163265,
+        "Precision Score": 0.37373737373737376,
+        "Recall": 0.7872340425531915,
+        "ROC AUC Score Train": 0.8716077719654104,
+        "ROC AUC Score Test": 0.8257386510466018,
+        "ROC AUC Score Full": 0.8656633164625404,
+        "Class Balance": "0: 83.9%, 1: 16.1%"
+    }
+}
