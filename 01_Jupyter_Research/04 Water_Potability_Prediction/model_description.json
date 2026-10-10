@@ -1,0 +1,26 @@
+{
+    "project": "Water Potability Prediction",
+    "model": "LogisticRegressionCV",
+    "trained_date": "2026-07",
+    "test_parameters": {
+        "cv": 10,
+        "penalty": "l2",
+        "solver": "lbfgs",
+        "C": 0.0001
+    },
+    "final_parameters": {
+        "cv": 10,
+        "penalty": "l2",
+        "solver": "lbfgs",
+        "C": 0.0001
+    },
+    "metrics": {
+        "Accuracy Score": 0.6646341463414634,
+        "Precision Score": 0.5737704918032787,
+        "Recall": 0.546875,
+        "ROC AUC Score Train": 0.6954640421724622,
+        "ROC AUC Score Test": 0.71875,
+        "ROC AUC Score Full": 0.6983587656514103,
+        "Class Balance": "0: 61.0%, 1: 39.0%"
+    }
+}
