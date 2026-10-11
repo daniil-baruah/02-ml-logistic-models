@@ -1,0 +1,26 @@
+{
+    "project": "Occupancy Prediction",
+    "model": "LogisticRegressionCV",
+    "trained_date": "2026-07",
+    "test_parameters": {
+        "cv": 10,
+        "penalty": "l2",
+        "solver": "lbfgs",
+        "C": 0.005994842503189409
+    },
+    "final_parameters": {
+        "cv": 10,
+        "penalty": "l2",
+        "solver": "lbfgs",
+        "C": 0.005994842503189409
+    },
+    "metrics": {
+        "Accuracy Score": 0.9844134536505332,
+        "Precision Score": 0.9463937621832359,
+        "Recall": 0.9989711934156379,
+        "ROC AUC Score Train": 0.9948128037586952,
+        "ROC AUC Score Test": 0.9961934170653597,
+        "ROC AUC Score Full": 0.9941814658338713,
+        "Class Balance": "0: 75.2%, 1: 24.8%"
+    }
+}
