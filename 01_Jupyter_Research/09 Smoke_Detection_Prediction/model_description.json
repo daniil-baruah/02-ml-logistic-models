@@ -1,0 +1,26 @@
+{
+    "project": "Smoke Detection Prediction",
+    "model": "LogisticRegressionCV",
+    "trained_date": "2026-07",
+    "test_parameters": {
+        "cv": 5,
+        "penalty": "l2",
+        "solver": "lbfgs",
+        "C": 0.0001
+    },
+    "final_parameters": {
+        "cv": 5,
+        "penalty": "l2",
+        "solver": "lbfgs",
+        "C": 0.0001
+    },
+    "metrics": {
+        "Accuracy Score": 0.9986428229283091,
+        "Precision Score": 0.9991061452513966,
+        "Recall": 0.9989945257513128,
+        "ROC AUC Score Train": 0.9997422855343454,
+        "ROC AUC Score Test": 0.9999096870061007,
+        "ROC AUC Score Full": 0.957906799227551,
+        "Class Balance": "0: 28.5%, 1: 71.5%"
+    }
+}
