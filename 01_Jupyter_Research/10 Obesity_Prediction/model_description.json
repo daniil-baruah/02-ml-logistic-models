@@ -1,0 +1,66 @@
+{
+    "project": "Obesity Prediction",
+    "model": "LogisticRegressionCV",
+    "trained_date": "2026-07",
+    "test_parameters": {
+        "cv": 10,
+        "penalty": "l2",
+        "solver": "lbfgs",
+        "C": 2.782559402207126
+    },
+    "final_parameters": {
+        "cv": 10,
+        "penalty": "l2",
+        "solver": "lbfgs",
+        "C": 2.782559402207126
+    },
+    "metrics": {
+        "Accuracy Score": 0.7801418439716312,
+        "Precision Score": {
+            "Insufficient_Weight": 0.8596491228070176,
+            "Normal_Weight": 0.6666666666666666,
+            "Overweight_Level_I": 0.7068965517241379,
+            "Overweight_Level_II": 0.6557377049180327,
+            "Obesity_Type_I": 0.7142857142857143,
+            "Obesity_Type_II": 0.8548387096774194,
+            "Obesity_Type_III": 0.9701492537313433
+        },
+        "Recall Score": {
+            "Insufficient_Weight": 0.9074074074074074,
+            "Normal_Weight": 0.5517241379310345,
+            "Overweight_Level_I": 0.7068965517241379,
+            "Overweight_Level_II": 0.6896551724137931,
+            "Obesity_Type_I": 0.7142857142857143,
+            "Obesity_Type_II": 0.8833333333333333,
+            "Obesity_Type_III": 1.0
+        },
+        "ROC AUC Score Train": {
+            "Insufficient_Weight": 0.9989577482369094,
+            "Normal_Weight": 0.9798749517375962,
+            "Overweight_Level_I": 0.9790462769988633,
+            "Overweight_Level_II": 0.9830635420613869,
+            "Obesity_Type_I": 0.9802588481082134,
+            "Obesity_Type_II": 0.9972927153396319,
+            "Obesity_Type_III": 1.0
+        },
+        "ROC AUC Score Test": {
+            "Insufficient_Weight": 0.980076282244304,
+            "Normal_Weight": 0.843882853094001,
+            "Overweight_Level_I": 0.9251299008030232,
+            "Overweight_Level_II": 0.8730751062824752,
+            "Obesity_Type_I": 0.9311614730878187,
+            "Obesity_Type_II": 0.9711202938475667,
+            "Obesity_Type_III": 1.0
+        },
+        "ROC AUC Score Full": {
+            "Insufficient_Weight": 0.9987605156254997,
+            "Normal_Weight": 0.9771207744972186,
+            "Overweight_Level_I": 0.9770190687193471,
+            "Overweight_Level_II": 0.975740877501941,
+            "Obesity_Type_I": 0.976290145040145,
+            "Obesity_Type_II": 0.9971360054050241,
+            "Obesity_Type_III": 1.0
+        },
+        "Class Balance": "0: 12.9%, 1: 13.6%, 2: 13.7%, 3: 13.7%, 4: 16.6%, 5: 14.1%, 6: 15.3%"
+    }
+}
